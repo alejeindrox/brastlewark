@@ -1,44 +1,104 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Brastlewark
+Brastlewark is an application to help Gnomes through a simple UI and a comfortable UX.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Brastlewark requires [Node.js](https://nodejs.org/) v6+ to run.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installing
 
-### `npm run build`
+Clone repository:
+```sh
+$  git clone https://github.com/alejeindrox/brastlewark.git brastlewark
+$ cd brastlewark/
+```
+And install dependencies
+```sh
+$ npm install
+```
+Or using Yarn
+```sh
+$ yarn
+```
+And it's ready to work.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Development Environment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Inside of the folder from project use:
+```sh
+$ npm start
+```
+Or using Yarn
+```sh
+$ yarn start
+```
+Open your browser and enter in https://localhost:3000/
+You must use Redux extension in this environment.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Production Environment
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In the production enviroment use the command:
+```sh
+$ npm build
+```
+Or using Yarn
+```sh
+$ yarn build
+```
+And now it's already compiled for deployment.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Pages
 
-## Learn More
+  - /
+  - /favorites
+  - /pendings
+  - /recents
+  - /profile/:gnomeId
+  - /about
+  - /*
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Pages Information
+
+  - Home: Show all Gnomes with datatable in screen with sm resolution.
+  - Favorites: Show Gnomes with status favorite.
+  - Pendings: Show Gnomes with status pending.
+  - Recents: Show Gnomes with status recent.
+  - Profile: Show one Gnome Selected.
+  - About: Show information about developer.
+  - Error 404: Page not found.
+
+
+## Resources
+
+Brastlewark uses a number of open source projects to work properly:
+
+* [React](https://reactjs.org) - A JavaScript library for building user interfaces.
+* [Material UI](https://material-ui.com) - React Components that Implement Google's Material Design.
+* [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js.
+* [Redux](https://redux.js.org/) - Redux is a predictable state container for JavaScript apps.
+* [react-lazyload](https://github.com/jasonslyvia/react-lazyload) - Lazy load your component, image or anything matters the performance.
+* [react-transition-group](https://github.com/reactjs/react-transition-group
+) - An easy way to perform animations when a React component enters or leaves the DOM.
+* [react-table](https://react-table.js.org) - A lightweight, fast and extendable datagrid built for React.
+*  [react-router](https://github.com/ReactTraining/react-router) - Declarative routing for React.
+
+And of course Brastlewark itself is open source with a public repository on GitHub.
+
+
+## Authors
+
+* **Alejandro López** - *Initial work* - [alejeindrox](https://github.com/alejeindrox)
+
+
+## License
+
+This project is licensed under the MIT License.
