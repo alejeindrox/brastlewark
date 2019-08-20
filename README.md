@@ -14,7 +14,7 @@ Brastlewark requires [Node.js](https://nodejs.org/) v6+ to run.
 
 Clone repository:
 ```sh
-$  git clone https://github.com/alejeindrox/brastlewark.git brastlewark
+$ git clone https://github.com/alejeindrox/brastlewark.git brastlewark
 $ cd brastlewark/
 ```
 And install dependencies
